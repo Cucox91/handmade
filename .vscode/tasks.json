@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "w:\\handmade\\code\\build.bat",
+      "options": { "cwd": "w:\\handmade\\code" },
+      "problemMatcher": "$msCompile",
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "clear": true }
+    }
+  ]
+}
